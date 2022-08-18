@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <!-- @NOTE linking our CSS -->
+        <link rel="stylesheet" href="style.css"/>
+    
+        <!-- @NOTE linking firebase version 8 CDNs first -->
+        <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+        <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+    
+        <!-- @NOTE initializing firebase -->
+        <script defer src="init-firebase.js"></script>
+    
+        <!-- @NOTE link our main.js AFTER we load initialize firebase -->
+        <script defer src="main.js"></script>
+        <title>Fire Messages 2.0</title>
+    </head>
+
+<body>
+
+    <!--Add your name-->
+    <h1>Blogging App</h1>
+
+    <!--This div will be populated with messages-->
+
+    <div class="card">
+        <img src="img_avatar.png" style="width:100%">
+        <div class="container">
+          <h4><b>Master Piece </b></h4>
+          <p>Description</p>
+        </div>
+      </div>
+
+    <div class="articles">
+        <div class="a1">
+        <h2>Master Piece</h2>
+        <p>Something about the movie titanic and stuff</p>
+        </div>
+        <div class="a2">
+        <h2>Odd Bit</h2>
+        <p>Today there was a new bug discovered in the Amazon</p>
+        </div>
+        <div class="a3">
+        <h2>Pancake</h2>
+        <p>Jared said something about liking pancakes</p>
+        </div>
+    </div>
+

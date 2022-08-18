@@ -1,0 +1,46 @@
+h1 {
+    color: orange;
+    text-align: center;
+    background-color: rgb(8, 8, 162);
+    font-family: Arial, Helvetica, sans-serif;
+    border: 8px solid(8,8,162);
+}
+
+img{
+    text-align: center
+}
+
+body{
+    background-color:black;
+}
+
+h3{
+    color:white
+}
+
+p{
+    color:white
+}
+
+h2{
+    color:white
+}
+
+ul{
+    color:white
+}
+
+div #bulbasaur_container{
+    background-color: greenyellow;
+    border: 20px solid greenyellow;
+}
+
+div #charmander_container{
+    background-color: orange;
+    border: 20px solid orange
+}
+
+div #squirtle_container{
+    border: 20px solid lightblue;
+    background-color: lightblue
+}

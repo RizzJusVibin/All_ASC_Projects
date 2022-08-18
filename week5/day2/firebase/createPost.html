@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <!-- @NOTE linking our CSS -->
+        <link rel="stylesheet" href="style.css"/>
+    
+        <!-- @NOTE linking firebase version 8 CDNs first -->
+        <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+        <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+    
+        <!-- @NOTE initializing firebase -->
+        <script defer src="init-firebase.js"></script>
+    
+        <!-- @NOTE link our main.js AFTER we load initialize firebase -->
+        <script defer src="main.js"></script>
+        <title>Fire Messages 2.0</title>
+    </head>
+
+<body>
+
+    <!--Add your name-->
+    <h1>Blogging App</h1>
+
+    <!--This div will be populated with messages-->
+    <div class="allMessages">
+        <p></p>
+
+
+    </div>
+    
+    <!--For user to input messages-->
+    <div class="userContainer">
+        <form>
+            <div class="inputContainer">
+                <div class="singleInput">
+                    <label for="username">Your name:</label>
+                    <input id="username" type="text">
+                </div>
+                <div class="singleInput">
+                    <label for="message">Message:</label>
+                    <input id="message" type="text">
+                </div>
+            </div>
+            <button id="submitButton">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
